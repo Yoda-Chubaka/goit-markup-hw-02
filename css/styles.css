@@ -47,10 +47,15 @@ a {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
+    
 }
 
 .link:hover,
 .link:focus {
+    color: var(--link-color);
+}
+
+.link.current {
     color: var(--link-color);
 }
 
@@ -72,8 +77,11 @@ a {
 /* START index.html */
 
 .hero-section {
-    color: var(--primary-background-color);
     background-color: var(--secondary-background-color);
+}
+
+.hero-title {
+    color: var(--primary-background-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -148,6 +156,7 @@ a {
 }
 
 .profession-worker {
+    color: var(--link-address-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
